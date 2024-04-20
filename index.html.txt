@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compability" content="IE-Edge">
+	<title>Sistema de Login</title>
+	<link rel="stylesheet" href="./src/css/style.css" type="text/css"
+</head>
+<body>
+	<div class="header" role="banner">
+		<div class="img-box"><img class="image" src="./src/img/" width="160px" height="160px"></div>
+		<h1>Sistema de Login</h1>
+		<p></p><br>
+	</div>
+
+	<form action="">
+		<label class="labels" for="email-label"><strong>Email</strong></label>
+		<input type="email" name="email" id="email-label" placeholder="Digite seu email" required>
+
+		<label class="labels" for="password-label"><strong>Senha</strong></label>
+		<input type="password" name="password" id="password-label" required>
+	</form>
+
+	<a href="#">Esqueci minha senha</a>
+
+	<button class="button-login">Entrar</button>
+
+	<p><strong>Não tem uma conta? <a href="#">Cadastre-se</strong></a>
+	<div class="content-info">Criado por Evilen Barreto<div>
