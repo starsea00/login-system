@@ -31,13 +31,27 @@ body {
 	color: var(--color-dark-grey);
 }
 
+#email-label, #password-label {
+	border: 1px solid var(--color-light-grey1);
+	border-radius: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 1em;
+	padding-right: 5em;
+}
+
 a {
 	text-decoration: none;
 	color: var(--color-blue);
 }
 
-.button-login {
+p {
+	color: var(--color-light-grey2);
+}
+
+.login-button {
 	width: 100%;
+	background-color: var(--color-blue);
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
