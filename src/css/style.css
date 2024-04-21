@@ -19,10 +19,6 @@ body {
 	transform: translate(-50%,-50%);
 }
 
-.header {
-	position: absolute;
-}
-
 .img-box {
 	text-align: center;
 }
